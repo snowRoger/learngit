@@ -1,0 +1,10 @@
+1· git init 在本地某个盘的根目录下（最好）创建一个本地版本库
+2· 创建文件及文件夹 或者项目文件
+3· git add 文件或者目录到暂存区
+4· git status 查看暂存区的文件状态
+5· git log --pretty=oneline 查看提交记录(--pretty=oneline :简化内容查看信息)
+6· git commit -m "注释" 提交到本地版本库
+7· git push -u origin master (-u：适用于第一次提交到远程版本库)
+8· git diff a.text 查看文件本次修改的不同之处
+9· git reset --hard HEAD ^/commit_id 回退版本到上一次(HEAD：指向当前版本 ^:有几个代表几个版本 或者 commit_id :提交的hash值的前几位)
+10· git remote add origin git@github.com:snowRoger/learngit.git 指向远程版本库
