@@ -8,3 +8,9 @@
 8· git diff a.text 查看文件本次修改的不同之处
 9· git reset --hard HEAD ^/commit_id 回退版本到上一次(HEAD：指向当前版本 ^:有几个代表几个版本 或者 commit_id :提交的hash值的前几位)
 10· git remote add origin git@github.com:snowRoger/learngit.git 指向远程版本库
+11· git branch 查看分支
+12· git branch <name> 创建分支
+13· git checkout <name> 切换分支
+14· git checkout -b <name>创建+切换分支
+15· git merge <name>合并某分支到当前分支
+16· git branch -d <name>删除分支
